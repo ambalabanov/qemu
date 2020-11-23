@@ -212,6 +212,7 @@ qemu-system-x86_64 \
 -nographic
 EOF
 $ chmod +x ./fedora.sh
+$ ./fedora.sh 
 ```
 
 Create snapshot
@@ -224,9 +225,5 @@ ID        TAG                     VM SIZE                DATE       VM CLOCK
 1         snap1                       0 B 2020-11-23 17:41:54   00:00:00.000
 ```
 
-Start
 
-```shell
-$ ./fedora.sh 
-```
 
